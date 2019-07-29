@@ -1,0 +1,93 @@
+/*baiducss.css*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+#container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*header*/
+#header{
+	width: 100%;
+	height: 30px;
+	min-width: 990px;
+	margin: 0;
+}
+#header>#more{
+	float:right;
+	background-color: #38f;
+	color: white;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+#header>#nav{
+	float: right;
+	height: 30px;
+	line-height: 30px;
+}
+#header>#nav>li{
+	float: left;
+	margin: 0 20px;
+}
+#header>#nav>li>a{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*main*/
+#mainSearch{
+	position: relative;
+	top:150px;
+	text-align: center;
+}
+/*logo*/
+#mainSearch #imglogo{
+	width:300px;
+}
+#mainSearch>#sInput{
+	width: 650px;
+	height: 30px;
+	margin: 20px auto;
+
+}
+#mainSearch>#sInput input{
+	height: 30px;
+	border: 1px solid #38f;
+	border-right: transparent;
+	width: 500px;
+	float: left
+}
+#mainSearch>#sInput #camera{
+	height: 32px;
+	width: 32px;
+	background: url(camera_new_5606e8f.png) no-repeat;
+	background-size: 80%;
+	background-position: 1px 5px;
+	border: 1px solid #38f;
+	margin: 0;
+	float: left;
+	overflow: hidden;
+	border-left: transparent;
+}
+#mainSearch>#sInput button{
+	float:left;
+	width:80px; 
+	height: 34px;
+	background-color: #38f;
+	border: 1px solid #38f;
+	color: white;
+
+}
+#mainSearch>#sInput #camera:hover{
+	background-position: 1px -23px;
+}
+
